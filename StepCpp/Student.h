@@ -15,5 +15,7 @@ public:
 
 	Student(string name, int age);
 
+	string get_name();
+
 	void print();
 };

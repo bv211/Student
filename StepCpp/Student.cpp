@@ -9,6 +9,11 @@ Student::Student(string name, int age) {
 	_age = age;
 }
 
+string Student::get_name()
+{
+	return _name;
+}
+
 void Student::print() {
 	cout << "Имя: " << _name << endl;
 	cout << "Возраст: " << _age << endl;
