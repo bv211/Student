@@ -6,11 +6,14 @@ using namespace std;
 class Student
 {
 private:
-	int _age{};
 	string _name;
+	int _age{};
 
 public:
 
-	Student();
-	Student(int age, string name);
+	Student() {};
+
+	Student(string name, int age);
+
+	void print();
 };
